@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dinesh's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- EMBEDDED CSS -->
+    <style>
+        body {
+            background-color: #eef2f7;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #334155;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            padding: 8px 15px;
+            border: 1px solid white;
+        }
+
+        nav a:hover {
+            background-color: #22c55e;
+            color: black;
+        }
+
+        main {
+            display: flex;
+            padding: 20px;
+        }
+
+        section {
+            width: 70%;
+            padding: 20px;
+        }
+
+        aside {
+            width: 30%;
+            background-color: #cbd5e1;
+            padding: 20px;
+            border-left: 3px solid #334155;
+        }
+
+        .highlight {
+            color: #dc2626;
+            font-weight: bold;
+        }
+
+        .float-left {
+            float: left;
+            width: 150px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+
+        .float-right {
+            float: right;
+            width: 200px;
+            margin: 10px;
+            border: 2px solid #555;
+        }
+
+        .img-link {
+            width: 400px;
+            border: 3px solid blue;
+        }
+
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+<marquee>
+    <h1>Welcome to My Portfolio</h1>
+</marquee>
+    <p><span class="highlight">Showcasing my skills & work</span></p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+    <a href="https://github.com" target="_blank">GitHub</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+
+<!-- SECTION -->
+<section id="home">
+    <h2>Introduction</h2>
+    <p>
+Hello! I’m a passionate learner with a strong interest in computer science and web development. I enjoy building websites and solving problems using programming languages like C++, Python, and HTML/CSS. This portfolio showcases my projects, skills, and learning journey as I continue to grow and improve in the tech field.
+        This is my <span class="highlight">personal portfolio website</span> created using
+        HTML and CSS. It demonstrates my web development skills.
+    </p>
+
+    <h2 id="about">About Me</h2>
+    <img src="https://image2url.com/r2/default/images/1768207651140-f94dc130-7a06-4717-b2d4-e73a3fd0ea66.jpg" class="float-left" alt="My Photo">
+    <p>  
+Strong foundation in Data Structures and Algorithms, with hands-on experience in problems like Matrix Chain Multiplication, Knapsack, Karatsuba, LCS and so on...
+Proficient in C++ programming, focusing on user-input–driven, well-structured, and efficient code.
+Good knowledge of HTML and CSS, including CSS selectors, properties, and precedence (inline, embedded, and external stylesheets).
+Experience in designing responsive and creative websites, especially portfolios and educational pages.
+Familiar with Git and GitHub for version control and hosting static websites.
+Basic understanding of Python and TensorFlow/Keras concepts for machine learning and deep learning foundations.
+    </p>
+
+    <img src="https://image2url.com/r2/default/images/1768209238703-66075258-bbb9-433f-bfc2-50127755f3eb.png" class="float-right" alt="Hobby">
+    <img src="https://image2url.com/r2/default/images/1768209294415-18ae02af-0130-40f4-adaf-eda348a1f9a5.png" class="float-right" alt="Interest">
+
+    <h2>Hobbies</h2>
+<ul>
+  <li>Coding and algorithm practice</li>
+  <li>Designing websites</li>
+  <li>Learning new programming languages</li>
+  <li>Exploring open-source projects</li>
+  <li>Improving logical and analytical skills</li>
+</ul>
+
+    <h2 id="services">Services</h2>
+    <ul>
+<li>Front-End Website Development using HTML, CSS, and basic JavaScript</li>
+<li>DSA Concept Explanation with Code Examples</li>
+<li>Mini Projects for Academic Submissions</li>
+<li>Assignment & Lab Program Assistance</li>
+<li>Git & GitHub Repository Setup</li>
+<li>Project Hosting on GitHub Pages</li>
+        <li>Web Design</li>
+        <li>HTML & CSS Development</li>
+        <li>Basic DSA Implementations</li>
+    </ul>
+
+    <h2 id="portfolio">My Portfolio</h2>
+    <ol>
+<li>DSA Learning Website (HTML Only)</li>
+<li>New year party website</li>
+<li>CSS Precedence Demonstration Website</li>
+<li>Greedy Algorithms Project</li>
+<li>Deep learning project</li>
+        <li>Portfolio Website</li>
+        <li>DSA Programs in C++</li>
+        <li>Mini Web Projects</li>
+    </ol>
+</section>
+
+<!-- ASIDE -->
+<aside>
+    <h3>Quick Links</h3>
+    <p>Email:</p>
+    <a href="mailto: dineshreddypollagari@gmail.com">dineshreddypollagari@gmail.com</a>
+
+    <p>Image as Link:</p>
+    <a href="#home">
+        <img src="https://image2url.com/r2/default/images/1768210969069-bc16a658-d6e7-4208-9881-27abe49ab0d2.png" class="img-link" alt="Home">
+    </a>
+</aside>
+
+</main>
+
+<!-- CONTACT -->
+<section id="contact" style="padding:20px;">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto: dinesh.reddy2024@vitstudent.ac.in">dinesh.reddy2024@vitstudent.ac.in</a></p>
+    <p>GitHub: <a href="https://github.com/dineshreddy2024-debug" target="_blank">github.com/dineshreddy2024-debug</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/dineshreddy pollagari" target="_blank">https://www.linkedin.com/in/dineshreddy pollagari</a></p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 My Portfolio Website</p>
+</footer>
+
+</body>
+</html>

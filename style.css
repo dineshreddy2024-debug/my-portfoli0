@@ -1,0 +1,155 @@
+/* ===============================
+   EXTERNAL CSS : style.css
+   Portfolio Website Styling
+   =============================== */
+
+/* RESET & BASE STYLES */
+body {
+    background-color: #eef2f7;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ===============================
+   HEADER
+   =============================== */
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* ===============================
+   NAVIGATION
+   =============================== */
+nav {
+    background-color: #334155;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 8px 15px;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #22c55e;
+    color: black;
+}
+
+/* ===============================
+   MAIN LAYOUT
+   =============================== */
+main {
+    display: flex;
+    padding: 20px;
+}
+
+/* ===============================
+   SECTION
+   =============================== */
+section {
+    width: 70%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+section h2 {
+    color: #1e293b;
+    border-bottom: 2px solid #cbd5e1;
+    padding-bottom: 5px;
+}
+
+/* ===============================
+   ASIDE
+   =============================== */
+aside {
+    width: 30%;
+    background-color: #cbd5e1;
+    padding: 20px;
+    border-left: 3px solid #334155;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+/* ===============================
+   TEXT & HIGHLIGHT
+   =============================== */
+.highlight {
+    color: #dc2626;
+    font-weight: bold;
+}
+
+/* ===============================
+   IMAGES
+   =============================== */
+.float-left {
+    float: left;
+    width: 150px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.float-right {
+    float: right;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #555;
+}
+
+.img-link {
+    width: 100%;
+    border: 3px solid blue;
+}
+
+/* ===============================
+   LISTS
+   =============================== */
+ul, ol {
+    margin-left: 20px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+/* ===============================
+   CONTACT SECTION
+   =============================== */
+#contact {
+    background-color: #f1f5f9;
+    padding: 20px;
+}
+
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* ===============================
+   FOOTER
+   =============================== */
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
